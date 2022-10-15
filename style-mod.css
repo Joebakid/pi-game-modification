@@ -31,14 +31,19 @@ ul {
 }
 
 ul li {
+}
+
+li a:hover {
+  background-color: var(--deco-color);
+}
+
+li a {
+  text-decoration: none;
   cursor: pointer;
   padding-bottom: 0;
   transition: background-color 0.5s ease-in;
   padding: 4px;
-}
-
-ul li:hover {
-  background-color: var(--deco-color);
+  color: #fff;
 }
 
 header {
