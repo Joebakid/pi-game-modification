@@ -59,6 +59,10 @@
     padding-bottom: 4px;
   }
 
+  .p-space {
+    padding-left: 8px;
+  }
+
   header {
     height: auto;
     width: auto;
