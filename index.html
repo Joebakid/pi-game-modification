@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="style-mod.css" />
     <link rel="stylesheet" href="utility-mod.css" />
     <link rel="stylesheet" href="media-querry.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -17,14 +22,14 @@
             <img class="pi-logo" src="img/pi-whitepaper.png" alt="" />
           </span>
           <ul class="md-custom-q ul-nav">
-            <li>Home</li>
-            <li>Features</li>
-            <li>About</li>
+            <li >Home</li>
+            <li href="#roadmap">Road Map</li>
+            <li href="#about">About</li>
           </ul>
         </nav>
       </div>
 
-      <div class="container hero-section py-6">
+      <div  class="container hero-section py-6 ">
 
         
           <h2 class="lg">
@@ -75,7 +80,7 @@
     <section>
       <div class="container py-4">
         <div class="py-4 grid-4 card">
-          <h2 class="text-center">ROAD MAP</h2>
+          <h2 class="text-center" id="roadmap">ROAD MAP</h2>
 
           <div class="card text-center div-features ">
             <img
@@ -174,7 +179,7 @@
   <div class="container">
 
 
-    <h2 class="text-center py-2 lg">ABOUT US</h2>
+    <h2  class="text-center py-2 lg ">ABOUT US</h2>
 <div class="text-center light-color">
   <h2 class="md py-1">OUR VISION</h2>
   <p class="sm py-1">
@@ -188,7 +193,7 @@
   </p>
 </div>
  
-<div><h2 class="text-center lg">MEET THE TEAM</h2></div>
+<div  id="about"><h2 class="text-center lg">MEET THE TEAM</h2></div>
 
 <div class="flex-3-about py-2 flex-3">
 
@@ -197,7 +202,8 @@
   <div>
     <h3 class="py-1">Xspace</h3>
     <p>A cryto educator and technical analyst. also an highly skilled airdrop hunter</p>
-      <button class="btn-meet"> <a href="#" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
+      <button class="btn-meet"> <a   href="https://web.telegram.org/k/#@xspaceq"
+        target="_blank" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
   </div>
 </div>
 
@@ -207,7 +213,7 @@
     <h3 class="py-1">Joseph Bawo</h3>
     <p>web developer and a marine enginner.
       currently on the path to learn web3</p>
-      <button class="btn-meet"> <a href="#" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
+      <button class="btn-meet"> <a href="https://twitter.com/josephbawo2" target="_blank" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
   </div>
 </div>
 
@@ -215,8 +221,9 @@
   <img src="img/bawo.jpg" alt="programmer photograph">
   <div>
     <h3 class="py-1">Festus</h3>
-    <p>He is a well know community moderator with huge experience. a cryto trader and analyst.</p>
-      <button class="btn-meet"> <a href="#" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
+    <p> Well know community moderator with huge experience. a cryto trader and analyst.</p>
+      <button class="btn-meet"> <a  href="https://web.telegram.org/k/#@Festus2519"
+        target="_blank" class="sm">CONTACT <span >&RightArrow;</span></a> </button>
   </div>
 </div>
 
@@ -227,6 +234,8 @@
 
   </div>
 </section>
+
+<script src="script.js"></script>
 
   </body>
 </html>

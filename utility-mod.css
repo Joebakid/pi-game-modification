@@ -192,6 +192,7 @@
 .flex-3 {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 /* all grid */
@@ -288,6 +289,15 @@
   font-family: "rubik", sans-serif;
 }
 
+.btn a {
+  font-family: "rubik", sans-serif;
+}
+
+.btn-meet:hover,
+.btn-meet:active {
+  background-color: #ffd8a8;
+}
+
 .btn-meet {
   padding: 10px;
   width: 100%;
@@ -310,5 +320,11 @@
 }
 
 .orange {
+  color: var(--deco-color);
+}
+
+#bitcoin,
+#ethereum,
+#dogecoin {
   color: var(--deco-color);
 }

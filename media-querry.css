@@ -55,6 +55,10 @@
     padding: 2rem;
   }
 
+  .logo {
+    padding-bottom: 4px;
+  }
+
   header {
     height: auto;
     width: auto;
