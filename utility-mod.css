@@ -332,3 +332,42 @@
 #dogecoin {
   color: var(--deco-color);
 }
+
+.icon {
+  width: 40px;
+}
+
+.footer-navbar ul li a {
+  color: var(--light-orange);
+}
+
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-foot {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer-navbar ul {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer-navbar ul li a {
+  color: #fff;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}

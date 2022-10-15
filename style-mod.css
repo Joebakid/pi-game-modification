@@ -18,6 +18,7 @@
 html {
   font-family: "rubik", sans-serif;
   line-height: 1.2;
+  scroll-behavior: smooth;
 }
 
 ul {
@@ -56,4 +57,8 @@ header {
 p {
   margin-bottom: 40px;
   letter-spacing: 1.7px;
+}
+
+footer {
+  background-color: rgb(11, 11, 90);
 }

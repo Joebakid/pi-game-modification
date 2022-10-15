@@ -47,6 +47,12 @@
     padding: 10px;
     color: var(--dark-bg);
   }
+
+  .flex-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 600px) {
