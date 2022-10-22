@@ -262,7 +262,7 @@
 }
 
 .card-width {
-  width: 300px;
+  width: 18rem;
 }
 
 .card-width img {
@@ -280,7 +280,8 @@
   transition: 0.5s ease-in;
 }
 
-.aboutme-div:hover {
+.aboutme-div:hover,
+.aboutme-div:active {
   transform: translateY(-0.5%);
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.096);
   cursor: pointer;
