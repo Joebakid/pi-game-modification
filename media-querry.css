@@ -83,3 +83,9 @@
     width: auto;
   }
 }
+
+@media (max-width: 450px) {
+  header {
+    background-color: rgb(8, 8, 82);
+  }
+}
